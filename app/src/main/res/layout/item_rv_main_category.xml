@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".SplashActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_margin="10sp"
+        app:cardCornerRadius="10sp"
+        app:cardElevation="10sp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/img_dish"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="-4dp"
+                android:src="@drawable/espinacas" />
+
+            <TextView
+                android:id="@+id/tv_dish_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/arima_madurai"
+                android:maxLines="2"
+                android:padding="5sp"
+                android:text="Nombre del plato"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

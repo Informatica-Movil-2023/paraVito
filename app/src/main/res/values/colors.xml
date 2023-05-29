@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#FF9A00</color>
+    <color name="brown">#433232</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pink">#F6DEDE</color>
+    <color name="youtube">#C64141</color>
+    <color name="gray">#f5f5f5</color>
+    <color name="darkGray">#3A3939</color>
+    <color name="hintTextColor">#787878</color>
+    <color name="naranjaDIETT">#F3E9A540</color>
+    <color name="verdeDIETT">#358638</color>
+    <color name="verdeDIETTClaro">#B70F9115</color>
+    <color name="blancoSucio">#AA9EAF</color>
+    <color name="gris">#808080</color>
+    <color name="textoPorDefectoColor">#5A5959</color>
+</resources>
